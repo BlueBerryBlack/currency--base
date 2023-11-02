@@ -4,7 +4,7 @@ export const convertPLNToUSD = (PLN) => {
     return NaN ;
   }
 
-    if (typeof PLN !== 'number' || isNaN(PLN)) {
+    if (typeof PLN !== 'number') {
     throw new Error("Invalid input");
   }
 
